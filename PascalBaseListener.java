@@ -1,4 +1,4 @@
-// Generated from /home/playtey/Documents/M1/Compil/prod/Pascal.g4 by ANTLR 4.8
+// Generated from D:/M1/Compil/projetcompilation\Pascal.g4 by ANTLR 4.8
 
     import java.util.*;
 
@@ -109,6 +109,30 @@ public class PascalBaseListener implements PascalListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDefproc(PascalParser.DefprocContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterDefparams(PascalParser.DefparamsContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitDefparams(PascalParser.DefparamsContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterDefparam(PascalParser.DefparamContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitDefparam(PascalParser.DefparamContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -246,6 +270,30 @@ public class PascalBaseListener implements PascalListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterParams(PascalParser.ParamsContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitParams(PascalParser.ParamsContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterParam(PascalParser.ParamContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitParam(PascalParser.ParamContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterComp(PascalParser.CompContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -289,6 +337,30 @@ public class PascalBaseListener implements PascalListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitOperation(PascalParser.OperationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterMultexpr(PascalParser.MultexprContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitMultexpr(PascalParser.MultexprContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterDivexpr(PascalParser.DivexprContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitDivexpr(PascalParser.DivexprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *

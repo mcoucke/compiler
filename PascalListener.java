@@ -1,4 +1,4 @@
-// Generated from /home/playtey/Documents/M1/Compil/prod/Pascal.g4 by ANTLR 4.8
+// Generated from D:/M1/Compil/projetcompilation\Pascal.g4 by ANTLR 4.8
 
     import java.util.*;
 
@@ -89,6 +89,26 @@ public interface PascalListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitDefproc(PascalParser.DefprocContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link PascalParser#defparams}.
+	 * @param ctx the parse tree
+	 */
+	void enterDefparams(PascalParser.DefparamsContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link PascalParser#defparams}.
+	 * @param ctx the parse tree
+	 */
+	void exitDefparams(PascalParser.DefparamsContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link PascalParser#defparam}.
+	 * @param ctx the parse tree
+	 */
+	void enterDefparam(PascalParser.DefparamContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link PascalParser#defparam}.
+	 * @param ctx the parse tree
+	 */
+	void exitDefparam(PascalParser.DefparamContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link PascalParser#type}.
 	 * @param ctx the parse tree
@@ -200,6 +220,26 @@ public interface PascalListener extends ParseTreeListener {
 	 */
 	void exitCallproc(PascalParser.CallprocContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link PascalParser#params}.
+	 * @param ctx the parse tree
+	 */
+	void enterParams(PascalParser.ParamsContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link PascalParser#params}.
+	 * @param ctx the parse tree
+	 */
+	void exitParams(PascalParser.ParamsContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link PascalParser#param}.
+	 * @param ctx the parse tree
+	 */
+	void enterParam(PascalParser.ParamContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link PascalParser#param}.
+	 * @param ctx the parse tree
+	 */
+	void exitParam(PascalParser.ParamContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link PascalParser#comp}.
 	 * @param ctx the parse tree
 	 */
@@ -239,6 +279,26 @@ public interface PascalListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitOperation(PascalParser.OperationContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link PascalParser#multexpr}.
+	 * @param ctx the parse tree
+	 */
+	void enterMultexpr(PascalParser.MultexprContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link PascalParser#multexpr}.
+	 * @param ctx the parse tree
+	 */
+	void exitMultexpr(PascalParser.MultexprContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link PascalParser#divexpr}.
+	 * @param ctx the parse tree
+	 */
+	void enterDivexpr(PascalParser.DivexprContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link PascalParser#divexpr}.
+	 * @param ctx the parse tree
+	 */
+	void exitDivexpr(PascalParser.DivexprContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link PascalParser#adresse}.
 	 * @param ctx the parse tree

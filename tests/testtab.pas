@@ -1,4 +1,4 @@
-program test1;
+program testtab;
 var x : array [5] of integer;
 y : integer
 begin

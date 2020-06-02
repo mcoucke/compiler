@@ -1,4 +1,4 @@
-// Generated from /home/playtey/Documents/M1/Compil/prod/Pascal.g4 by ANTLR 4.8
+// Generated from D:/M1/Compil/projetcompilation\Pascal.g4 by ANTLR 4.8
 
     import java.util.*;
 
@@ -60,6 +60,18 @@ public interface PascalVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitDefproc(PascalParser.DefprocContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link PascalParser#defparams}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitDefparams(PascalParser.DefparamsContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link PascalParser#defparam}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitDefparam(PascalParser.DefparamContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link PascalParser#type}.
 	 * @param ctx the parse tree
@@ -127,6 +139,18 @@ public interface PascalVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitCallproc(PascalParser.CallprocContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link PascalParser#params}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitParams(PascalParser.ParamsContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link PascalParser#param}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitParam(PascalParser.ParamContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link PascalParser#comp}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -150,6 +174,18 @@ public interface PascalVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitOperation(PascalParser.OperationContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link PascalParser#multexpr}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitMultexpr(PascalParser.MultexprContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link PascalParser#divexpr}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitDivexpr(PascalParser.DivexprContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link PascalParser#adresse}.
 	 * @param ctx the parse tree

@@ -50,4 +50,8 @@ public class TableSymbole {
     public int getTaille() {
         return isGlobale ? tailleGlobale : tailleLocale;
     }
+
+    public void putParametre(String nom, Type.Parametre type, int adresse) {
+        tableGlobale.put(nom, new Variable(adresse, type, false));
+    }
 }

@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public interface Type {
 
     public int getTaille();
@@ -70,10 +72,27 @@ public interface Type {
     }
 
     public static class Proc implements Type {
+        ArrayList<Parametre> param = new ArrayList<Parametre>();
+        int taille = 0;
 
         @Override
         public int getTaille() {
-            return 0;
+            return taille;
+        }
+    }
+
+    public static class Parametre implements Type {
+        Type type;
+        boolean parValeur;
+
+        public Parametre(Type type, boolean parValeur) {
+            this.type = type;
+            this.parValeur = parValeur;
+        }
+
+        @Override
+        public int getTaille() {
+            return parValeur?type.getTaille():1;
         }
     }
 }

@@ -1,4 +1,4 @@
-program testuntil;
+program testrepeat;
 var x : integer
 begin
   read(x);
